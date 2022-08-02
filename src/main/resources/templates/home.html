@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" xmlns:javascript="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/templates/style.css"><!--이런식으로 css파일 생성후 링크걸기 가능-->
+    <style>
+        .color-primary{
+            color:red;//메인컬러를지정해줌class만든것
+        }
+        .font-50{
+            font-size:30px;
+        }
+        .tb-head>tr>td{
+            border:1px solid #000;
+            font-size:14px;
+            font-weight: bold;
+        }
+        .tb-body>tr>td{
+            border:1px solid #000;
+        }
+        /*전체선택자(*로 표기), 태그 선택자(p로 표기), 클래스 선택자(.뭐뭐뭐로 표기)가 있다. 아래 예시는 p태그에 적용*/
+        /*p{
+            background: yellowgreen;
+            color: darkgreen;
+        }
+        .class1{
+            background: yellow;
+            color: darkcyan;
+        }*/
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <div>
+        <h1>ThinkPad_Holic</h1>
+        <p class="color-primary">Track-Point</p>
+        <p class="class1">I Hate Mac</p>
+        <p class="color-primary font-50">Insert Model</p>
+        <p>
+            <a href="/members/new">기종 등록</a>
+            <a href="/members">기종 목록</a>
+        </p>
+
+        <input type="text" />
+        <input type="number"  />
+        <select class="select-style1" style="height:40px;">
+            <option>X-series</option>
+            <option>T-series</option>
+            <option>L-series</option>
+            <option>E-series</option>
+        </select>
+
+        <p class="color-primary">Ex)</p>
+        <table >
+            <thead class="tb-head">
+            <tr>
+                <td >기종명</td>
+                <td >cpu</td>
+                <td >출시일자</td>
+            </tr>
+            </thead>
+            <tbody class="tb-body">
+            <tr>
+                <td>thinkpad-x1carbon</td>
+                <td>i5-1240p</td>
+                <td>2022-06-21</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <a href="http://tpholic.com/xe/" target ="_blank">Tpholic-Link</a>
+        <button type="button" onclick="javascript:alert('nice track-point!!')";>빨콩</button>
+        <img width="400px"
+             src="https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/9cd92234-709a-49b6-afde-96169ea3a343"/>
+    </div>
+</div>
+</body>
+</html>
+
+

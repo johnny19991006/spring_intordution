@@ -1,0 +1,9 @@
+.color-primary{
+    color:rgb(0,255,34);//메인컬러를지정해줌class만든것
+}
+.font-50{
+    font-size:50px;
+}
+.tb{
+    border:1px solid #000;
+}
